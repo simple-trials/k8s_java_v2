@@ -29,8 +29,8 @@ pipeline {
         }
         steps {
          git branch: 'main', url: 'https://github.com/krishnalakamsani/java-application.git'
-         sh 'kubectl apply -f deployment.yaml'
-         sh 'kubectl apply -f service.yaml'
+         sh 'kubectl apply -f deployment.yml'
+         sh 'kubectl apply -f service.yml'
         }
     }
   }
