@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: java-application
-        image: krishnalakamsani/java-application:2
+        image: krishnalakamsani/java-application:3
         ports:
         - containerPort: 8080
