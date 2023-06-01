@@ -12,7 +12,7 @@ public class StartApplication {
 
     @GetMapping("/")
     public String index(final Model model) {
-        model.addAttribute("title", "Java app v1");
+        model.addAttribute("title", "Java app v2");
         model.addAttribute("msg", "This application is deployed on to Kubernetes");
         return "index";
     }
